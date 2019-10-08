@@ -1,0 +1,29 @@
+/**********Tag Selectors************/
+
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+img {
+  background-color: red;
+  height: 150px;
+}
+
+.good {
+  background-color: green;
+  height: 150px;
+}
+
+.bad {
+  background-color: red;
+  height: 150px;
+}
+
+/* the more specific class selector always overrides the more general ones. so here the background color for the class "good" overrides the more general color specification for the img class
+
+/*********ID Selectors***********/
+
+#heading {
+  color: blue;
+}
