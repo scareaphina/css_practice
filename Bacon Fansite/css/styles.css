@@ -5,8 +5,8 @@ h1 {
   font-size: 200px;
 }
 
-img {
-  background-color: red;
+img:hover {
+  background-color: gold;
   height: 150px;
 }
 
@@ -18,6 +18,10 @@ img {
 .bad {
   background-color: red;
   height: 150px;
+}
+
+.circular {
+  border-radius: 100%;
 }
 
 /* the more specific class selector always overrides the more general ones. so here the background color for the class "good" overrides the more general color specification for the img class
